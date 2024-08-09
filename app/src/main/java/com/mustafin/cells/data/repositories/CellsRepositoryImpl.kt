@@ -17,5 +17,7 @@ class CellsRepositoryImpl(context: Context): CellsRepository {
     }
 
     // Обновить список клеток
-    override fun setCells(cells: List<CellStatus>) {}
+    override fun setCells(cells: List<CellStatus>) {
+        cellsCache.setCells(cells)
+    }
 }
