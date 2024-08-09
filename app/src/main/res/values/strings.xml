@@ -1,0 +1,17 @@
+<resources>
+    <string name="header">Клеточное наполнение</string>
+
+    <string name="dead_cell_title">Мёртвая</string>
+    <string name="dead_cell_text">или прикидывается</string>
+    <string name="dead_cell_icon">💀</string>
+
+    <string name="alive_cell_title">Живая</string>
+    <string name="alive_cell_text">и шевелится!</string>
+    <string name="alive_cell_icon">💥</string>
+
+    <string name="life_cell_title">Жизнь</string>
+    <string name="life_cell_text">Ку-ку!</string>
+    <string name="life_cell_icon">🐣</string>
+
+    <string name="create_cell_button_text">СОТВОРИТЬ</string>
+</resources>

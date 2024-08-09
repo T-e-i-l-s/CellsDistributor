@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Основные цвета  -->
+    <color name="background_gradient_start">#310050</color>
+    <color name="background_gradient_end">#000000</color>
+    <color name="main_fill">#FFFFFF</color>
+    <color name="light_text">#FFFFFF</color>
+    <color name="dark_text">#000000</color>
+    <color name="additional">#5A3472</color>
+
+    <!--  Цвета иконок со статусом клеток  -->
+    <!--  Мертвая  -->
+    <color name="dead_gradient_start">#0D658A</color>
+    <color name="dead_gradient_end">#B0FFB4</color>
+    <!--  Живая  -->
+    <color name="alive_gradient_start">#FFB800</color>
+    <color name="alive_gradient_end">#FFF7B0</color>
+    <!--  Жизнь  -->
+    <color name="life_gradient_start">#AD00FF</color>
+    <color name="life_gradient_end">#FFB0E9</color>
+</resources>
