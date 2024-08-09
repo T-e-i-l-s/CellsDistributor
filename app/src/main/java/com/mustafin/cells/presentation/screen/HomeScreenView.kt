@@ -72,7 +72,7 @@ fun HomeScreenView() {
         }
 
         Button(
-            onClick = { /*TODO*/ },
+            onClick = { viewModel.addCell() },
             colors = ButtonDefaults.buttonColors(colorResource(id = R.color.additional)),
             contentPadding = PaddingValues(10.dp),
             shape = RoundedCornerShape(4.dp),
