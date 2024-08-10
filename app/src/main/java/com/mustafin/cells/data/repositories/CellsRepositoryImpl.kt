@@ -4,7 +4,7 @@ import android.content.Context
 import com.mustafin.cells.data.source.local.CellsCache
 import com.mustafin.cells.domain.enums.CellStatus
 
-// Репозиторий для работы с храенением списка клеток
+// Реализованный репозиторий для работы с храненением списка клеток
 class CellsRepositoryImpl(context: Context): CellsRepository {
     // Создаем экземпляр класса для работы с кешем
     private val cellsCache = CellsCache(context)

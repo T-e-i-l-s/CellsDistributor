@@ -44,7 +44,7 @@ fun CellView(status: CellStatus = CellStatus.DEAD) {
             .padding(16.dp)
     ) {
         CellIconView(status)
-        Column (modifier = Modifier.padding(start = 16.dp)) {
+        Column(modifier = Modifier.padding(start = 16.dp)) {
             Text(
                 text = title,
                 fontFamily = DEFAULT_FONT,

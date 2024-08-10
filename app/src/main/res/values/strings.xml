@@ -1,6 +1,8 @@
 <resources>
     <string name="header">Клеточное наполнение</string>
 
+    <string name="empty">Клеток пока нет</string>
+
     <string name="dead_cell_title">Мёртвая</string>
     <string name="dead_cell_text">или прикидывается</string>
     <string name="dead_cell_icon">💀</string>

@@ -40,7 +40,7 @@ class CellsManager(context: Context) {
     }
 
     // Применение правил обработки списка клеток
-    private fun applyRules(cells: MutableList<CellStatus>): List<CellStatus> {
+    fun applyRules(cells: MutableList<CellStatus>): List<CellStatus> {
         applyAliveRule(cells)
         applyDeadRule(cells)
         return cells
